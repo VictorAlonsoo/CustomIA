@@ -1,0 +1,12 @@
+worlds:
+  world_nether:
+    blocked-commands:
+      - "tpa"
+      - "tpaccept"
+    message: "<red>No tienes permiso para teletransportarte al <bold>Nether</bold>."
+
+  world_the_end:
+    blocked-commands:
+      - "tpa"
+      - "tpaccept"
+    message: "<yellow>¡No puedes viajar al <bold>End</bold> sin permiso!>"

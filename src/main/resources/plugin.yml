@@ -1,0 +1,26 @@
+name: CustomIA
+main: cia.victoralonso.customia.CustomIA
+version: 1.0.0
+api-version: 1.21
+author: VictorAlonso
+description: "Uso personal de VictorAlonso utilizando IA"
+
+commands:
+  customiareload:
+    description: "Recarga la configuración del plugin sin reiniciar el servidor."
+    usage: "/customiareload"
+    permission: customia.reload
+
+permissions:
+  customia.bypass:
+    description: "Permite teletransportarse entre mundos sin restricciones."
+    default: op
+  customia.tp.*:
+    description: "Permite teletransportarse a cualquier mundo."
+    default: false
+  customia.tp.nombremundo:
+    description: "Permite teletransportarse a un mundo específico (reemplazar 'nombremundo' por el nombre real)."
+    default: false
+  customia.reload:
+    description: "Permite recargar la configuración del plugin."
+    default: op
